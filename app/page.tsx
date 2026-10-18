@@ -7,7 +7,7 @@ import {
   House, Leaf, LogIn, LogOut, MapPin, Menu, PackageCheck, Route, ShieldCheck,
   Sprout, Truck, Upload, Users, Wallet, Wheat, X
 } from "lucide-react";
-import { calculateMandi, inr, type MandiOption } from "@/lib/calculations";
+import { calculateMandi, inr, type MandiOption } from "@/lib/calculation";
 import { supabase, supabaseConfigured } from "@/lib/supabase";
 
 type Section = "dashboard" | "mandi" | "profit" | "pooling" | "grade" | "sell";

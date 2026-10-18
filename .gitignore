@@ -1,0 +1,12 @@
+# Dependencies and generated Next.js output
+node_modules/
+.next/
+out/
+
+# Local environment files contain deployment credentials
+.env.local
+.env*.local
+
+# Local editor and operating-system files
+.DS_Store
+*.log
